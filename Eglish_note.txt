@@ -1,0 +1,10 @@
+//https://www.infoq.com/news/2021/11/solid-modern-microservices/?itm_source=infoq&itm_medium=popular_widget&itm_campaign=popular_content_list&itm_content=
+principle(原则),SOLID principle
+fundation(基础，基金)，SOLID principles are still the foundation for modern software architecture
+SOLID is a mnemonic(助记符) and acronym(首字母缩写) for five software design principles enumerated in 2000 by Robert C. Martin. 
+SOLID principles are a time-tested rubric(准则,a head of document) for creating good software
+adapted to(适应) modern software engineering practices
+The author points out some relevant(相关，相应) developments(发展) in the software industry(行业) since the creation of the SOLID principles
+Dynamically-typed(动态类型) languages and paradigms(范式) such as functional programming or metaprogramming have gained(获得) traction(吸引力) and are a [common sight](关注) in software today. 
+microservices and software-as-a-service made the [monolithic deployment pattern](单体式部署) less common
+[states that](指出)  many principles [governed by SOLID](由SOLID管理) are no longer commonly used by as many programmers as before.
