@@ -1,0 +1,44 @@
+LoRaWAN Devices
+  支持 LoraWAN 通讯协议的终端设备
+
+LoRa Gateway
+  云端和设备间的通讯数据转发（支持多通道）,使用UDP协议
+
+Gateway Bridge
+  接受 LoRa Gateway 转发的报文转换成 ChirpStack 定义的格式，采用 MQTT 协议发布消息
+
+Network Server
+  设备连接认证
+  对设备端过来的消息去重
+  处理接收到的 mac-commonds
+  与 Application Server 通讯
+  处理下行帧的调度
+
+Application Server
+  manage users, organizations, applications and devices
+  提供对外接口，与外部系统通讯
+  概念:
+    Application: devices with the same purpose / of the same type
+    Device Profile: 设备配置信息。如 SupportsClassB，ClassBTimeout，及自定义配置
+mac-commonds:
+  LoRaWAN Devices 和 Gateway Bridge 交互指令
+
+
+
+
+LAN/WAN：广域网和局域网(定义：？)
+tun2socktes:利用tun/tap拦截数据实现透明代理
+iptables:linux管理网络数据包的处理和转发
+redir/tun2socktes:实现本地透明代理的手段
+fake ip:返回假的ip地址以欺骗操作系统完成dns解析
+tun/tap:TUN与TAP是操作系统内核中的虚拟网络设备,TUN 虚拟网卡
+LwIP:TCP/IP 协议实现方式之一
+
+目的：拦截流量
+
+操作系统处理网络数据的过程，tcp/ip协议，LwIp，tap/tun
+
+
+注释
+  RTT:來回通訊延遲
+
